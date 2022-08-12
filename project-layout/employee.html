@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <nav class="zone green">
+    <ul class="main-nav">
+        <li><a href="">About</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Our Team</a></li>
+        <li class="push"><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <form action="connection.php" method="post">
+    <table border ="1" align = "center">
+        <tr>
+            <td>
+                <label>Enter employee's name: </label>
+            </td>
+            <td> <input type = "text" name="name"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Enter employee's birthday: </label>
+            </td>
+            <td> <input type = "date" name="birthday"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Gender: </label>
+            </td>
+            <td> <input type = "radio" id="female" name="name" value ="female">
+                <label for = "female">Female</label>
+                <input type = "radio" id="male" name="name" value ="male">
+                <label for = "male">Male</label></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>SSN: </label>
+            </td>
+            <td> <input type = "password" name="SSN" maxlength ="9">
+                </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Add </label>
+                <input type = "submit"></td>
+        </tr>
+    </table>
+  </form> 
